@@ -1,0 +1,42 @@
+Algorithm Read_sentence
+// count nomber of characters
+var Phrase: string;
+var Nb: integer;
+begin
+write (enter a sentence)
+Read (sentence)
+Nb: = lenghth(sentence);
+write(this sentence have)nb(character);
+end
+
+// We have to count the nbre of spaces of the sentence so we can know the number of sentence's words
+var Phrase:string;
+var Nb,i:integer;
+begin
+write(enter a Phrase);
+Read(phrase);
+Nb:=0;
+for(1.lenghth.phrase)
+if mid(phrase,i,1)=" " THEN
+Nb=Nb+1;
+end_if
+write(Nb)
+end
+
+// TO count Number of vowels we can do that in 2 ways
+// str or chn of characters with vowels
+// using if or or then
+var A: char
+var Nb,i:integer
+begin
+write(enter a setence);
+read(A);
+nb=0;
+for i(1.lenghth(A));
+if mid(A,i,1)="a" or mid(A,i,A)="e" or mid(A,i,1)="i" or mid(A,i,1)="o"
+or mid(A,i,1)="u" or mid(A,i,1)="y" THEN
+Nb=Nb+1;
+end_if
+write"this sentece have"Nb"vowels"
+end
+
